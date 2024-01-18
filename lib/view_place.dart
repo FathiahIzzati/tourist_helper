@@ -79,7 +79,7 @@ class _ViewPlaceState extends State<ViewPlace> {
         title: Text('View Places'),
       ),
       body: isLoading
-          ? const Center(child: CircularProgressIndicator())
+          ? Center(child: CircularProgressIndicator())
           : errorMessage.isNotEmpty
               ? Center(child: Text(errorMessage))
               : ListView.builder(

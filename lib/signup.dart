@@ -4,6 +4,8 @@ import 'dart:convert';
 import 'package:tourist_helper/login.dart';
 
 class SignupPage extends StatefulWidget {
+  const SignupPage({super.key});
+
   @override
   _SignupPageState createState() => _SignupPageState();
 }

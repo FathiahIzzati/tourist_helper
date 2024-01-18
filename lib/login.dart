@@ -136,7 +136,7 @@ class _LoginPageState extends State<LoginPage> {
                         Navigator.pushNamed(context, '/signup');
                       },
                       style: TextButton.styleFrom(
-                        textStyle: TextStyle(
+                        textStyle: const TextStyle(
                             fontSize: 18, fontWeight: FontWeight.bold),
                       ),
                       child: const Text('Sign Up'),
